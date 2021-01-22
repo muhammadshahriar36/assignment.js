@@ -1,3 +1,6 @@
+// https://github.com/muhammadshahriar36/assignment.js
+
+
 function kilometerToMeter(kilometer){
     var meter = kilometer * 1000;
     return meter;
@@ -48,3 +51,16 @@ function megaFriend(names){
 
 
 
+
+var nanaMeter = kilometerToMeter(6);
+console.log(nanaMeter);
+
+var amount = budgetCalculator(3, 2, 2);
+console.log(amount);
+
+var count = hotelCost(40);
+console.log(count);
+
+var names = ["shahriar hossain joy", "tamim hasan", "abu saad", "multazimul islam akib"];
+var result = megaFriend(names);
+console.log(result);
